@@ -476,13 +476,27 @@ nav a {
   margin-left: 10px;
   border: solid 1px rgb(209, 215, 220);
 }
-/* .learning-focus .container .insights span h4 button {
+ .learning-focus .container .insights .insight-button {
   display: flex;
   font-size: xx-small; 
   color: rgb(128, 25, 143); 
   border:solid 1px rgb(128, 25, 143);
+  /* text-align: center; */
+  padding-top: 3px;
+  border-radius: 3px;
+}  
 
-}  */
+.learning-focus .container .insights .enterprise-flex{
+  display: flex;
+  gap: 10px;
+}
+
+ /* .learning-focus .container .insights .enterprise-flex {
+  display: flex;
+  font-size: xx-small; 
+  color: rgb(128, 25, 143); 
+  border:solid 1px rgb(128, 25, 143);
+}   */
   .insights span h4 .enterprise{
      display: flex;
   }
